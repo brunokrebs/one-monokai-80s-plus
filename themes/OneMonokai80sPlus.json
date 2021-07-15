@@ -86,6 +86,7 @@
 			"name": "Var definition",
 			"scope": [
 				"entity.name.variable.local",
+				"entity.name.variable.tuple-element",
 				"meta.definition.variable variable.other.readwrite"
 			],
 			"settings": {
