@@ -9,12 +9,13 @@
 		"dropdown.background": "#1d1f23",
 		"diffEditor.insertedTextBackground": "#00809B33",
 		"dropdown.border": "#181A1F",
+		"panel.border": "#383E4A",
 		"editor.background": "#282c34",
 		"editorError.foreground": "#c24038",
 		"editorRuler.foreground": "#484848",
-		"editor.lineHighlightBackground": "#383E4A",
+		"editor.lineHighlightBackground": "#383E4A99",
 		"editorCursor.foreground": "#f8f8f0",
-		"editor.editor.findMatchBackground": "#42557B",
+		"editor.findMatchBackground": "#42557B",
 		"editor.findMatchHighlightBackground": "#314365",
 		"editorGroup.background": "#181A1F",
 		"editorGroup.border": "#181A1F",
@@ -28,6 +29,9 @@
 		"editorSuggestWidget.border": "#181A1F",
 		"editorSuggestWidget.selectedBackground": "#2c313a",
 		"editorWidget.background": "#21252B",
+		"editor.selectionBackground": "#2f5093",
+		"editor.selectionHighlightBackground": "#233d70",
+		"editor.inactiveSelectionBackground": "#333842",
 		"input.background": "#1d1f23",
 		"list.activeSelectionBackground": "#2c313a",
 		"list.activeSelectionForeground": "#d7dae0",
@@ -54,9 +58,6 @@
 		"titleBar.activeForeground": "#9da5b4",
 		"titleBar.inactiveBackground": "#282C34",
 		"titleBar.inactiveForeground": "#6B717D",
-		"editor.selectionBackground": "#2f5093",
-		"editor.selectionHighlightBackground": "#233d70",
-		"editor.inactiveSelectionBackground": "#333842",
 		"terminal.ansiBlack": "#65696d",
 		"terminal.ansiBlue": "#61AFEF",
 		"terminal.ansiBrightBlack": "#84888e",
@@ -73,7 +74,9 @@
 		"terminal.ansiRed": "#E06C75",
 		"terminal.ansiWhite": "#bec2ca",
 		"terminal.ansiYellow": "#d6c294",
-		"editorIndentGuide.activeBackground": "#888"
+		"editorIndentGuide.activeBackground": "#888",
+		"scrollbar.shadow": "#00000055",
+		"widget.shadow": "#00000055"
 	},
 	"tokenColors": [
 		{
@@ -159,7 +162,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#9CC284"
+				"foreground": "#BEC2CA"
 			}
 		},
 		{
@@ -167,11 +170,12 @@
 			"scope": [
 				"variable.language",
 				"variable",
+				"variable.other",
 				"meta.class123",
 				"text123"
 			],
 			"settings": {
-				"foreground": "#61AFEF"
+				"foreground": "#BEC2CA"
 			}
 		},
 		{
@@ -319,7 +323,7 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#9ac181"
+				"foreground": "#BEC2CA"
 			}
 		},
 		{
@@ -363,9 +367,7 @@
 		{
 			"name": "Doctype",
 			"scope": [
-				"meta.tag.sgml.doctype.html",
-				"meta.tag123",
-				"markup"
+				"meta.tag.sgml.doctype.html"
 			],
 			"settings": {
 				"foreground": "#61AFEF"
@@ -922,5 +924,9 @@
 				"foreground": "#668F9C"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"variable.declaration": "#E3E5E8"
+	}
 }
