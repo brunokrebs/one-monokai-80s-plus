@@ -1,16 +1,14 @@
 {
     "name": "one-monokai-80s-plus",
     "displayName": "One Monokai 80s Plus Theme",
-    "description": "Fork from One Monokai 80s, now supports C# and other languages",
+    "description": "A dark theme based on One Monokai 80s",
     "version": "1.5.0",
-    "publisher": "VictorTrusov",
     "engines": {
-        "vscode": "^0.10.1"
+        "vscode": "^1.60.0"
     },
     "categories": [
         "Themes"
     ],
-    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
@@ -22,22 +20,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/victortrusov/one-monokai-80s-plus"
-    },
-    "keywords": [
-        "outrun",
-        "material",
-        "theme",
-        "pastels",
-        "monokai",
-        "c#",
-        "c sharp",
-        "csharp",
-        "net",
-        "net core",
-        "80",
-        "vaporwave"
-    ],
-    "author": "Marcelo Delgado / Victor Trusov",
-    "license": "MIT"
+        "url": "https://github.com/brunokrebs/one-monokai-80s-plus"
+    }
 }
